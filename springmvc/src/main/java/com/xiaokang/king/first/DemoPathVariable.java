@@ -5,9 +5,13 @@ import org.springframework.stereotype.Controller;
 import org.springframework.ui.Model;
 import org.springframework.web.bind.annotation.*;
 
+import java.util.Arrays;
+import java.util.Map;
+
 /**
  * Created by wb263970 on 2017/7/13.
  */
+@SessionAttributes(value={"names"},types={Integer.class})
 @Controller
 public class DemoPathVariable {
 
@@ -48,6 +52,13 @@ public class DemoPathVariable {
         System.out.println(bean);
         return bean;
     }
+
+    @RequestMapping(value = "/sesstionattr")
+    public String test(Map<String, Object> map) {
+        map.put("names", Arrays.asList("caoyc", "zhh", "cjx"));
+        map.put("age", 18);
+        return "sessionattr";
+    }
 }
 
 class Bean {
@@ -78,3 +89,10 @@ class Bean {
                 '}';
     }
 }
+
+
+
+
+
+
+
