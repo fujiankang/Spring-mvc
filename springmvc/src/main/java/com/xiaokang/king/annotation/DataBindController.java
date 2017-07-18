@@ -1,5 +1,4 @@
 package com.xiaokang.king.annotation;
-
 import org.apache.commons.logging.Log;
 import org.apache.commons.logging.LogFactory;
 import org.springframework.stereotype.Controller;
@@ -30,11 +29,10 @@ public class DataBindController {
             logger.info(accept);
         }
     }
+
     //测试@CookieValue
-    public class CookieValueTest {
-        @RequestMapping(value = "/cookieValueTest")
-        public void cookieValueTest(@CookieValue(value = "JSESSIONID", defaultValue = "") String sessionId) {
-            logger.info("通过@CookieValue获得的数据" + sessionId);
-        }
+    @RequestMapping(value = "/cookieValueTest")
+    public void cookieValueTest(@CookieValue(value = "JSESSIONID", defaultValue = "") String sessionId) {
+        logger.info("通过@CookieValue获得的数据" + sessionId);
     }
 }
