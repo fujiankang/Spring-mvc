@@ -12,7 +12,7 @@
       <!--contextConfigLocation是参数名称，该参数的值包含SpringMVC的配置文件路径 -->
       <param-name>contextConfigLocation</param-name>
       <!--<param-value>classpath:spring-web-1.xml</param-value>-->
-      <param-value>classpath:spring-web-3.xml</param-value>
+      <param-value>classpath:spring-web-5.xml</param-value>
     </init-param>
     <!-- 在Web应用启动时立即加载Servlet -->
     <load-on-startup>1</load-on-startup>
