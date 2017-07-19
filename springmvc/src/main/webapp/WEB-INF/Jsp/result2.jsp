@@ -11,6 +11,10 @@
     <title>Model And ModelMap</title>
 </head>
 <body>
-Reuslt：${user.logginname}
+    Reuslt：${user.logginname}
+    <h3>测试@ModelAttribute注释void返回值的方法</h3>
+    访问request作用域中loginname对象:${requestScope.loginname}<br>
+    访问request作用域中password对象:${requestScope.password}<br>
+
 </body>
 </html>
