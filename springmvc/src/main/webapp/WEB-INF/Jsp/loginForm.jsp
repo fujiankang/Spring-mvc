@@ -30,7 +30,5 @@
         </tr>
     </form>
 <hr/>
-${requestScope.user.username}<br>//访问request作用范围域中的user对象
-${sessionScope.user.username}<br>//访问session作用范围域中的user对象
 </body>
 </html>
