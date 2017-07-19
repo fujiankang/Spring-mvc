@@ -29,5 +29,8 @@
             <td><input id="submit" type="submit" value="登陆"></td>
         </tr>
     </form>
+<hr/>
+${requestScope.user.username}<br>//访问request作用范围域中的user对象
+${sessionScope.user.username}<br>//访问session作用范围域中的user对象
 </body>
 </html>

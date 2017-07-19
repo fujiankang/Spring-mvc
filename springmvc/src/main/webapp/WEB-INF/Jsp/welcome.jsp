@@ -12,5 +12,8 @@
 </head>
 <body>
 <h1>欢迎[${requestScope.user.username}]</h1>
+
+<h1>访问request作用范围域中的user对象:[${requestScope.user.username}]</h1>
+<h1>访问session作用范围域中的user对象:[${sessionScope.user.loginname}]</h1>
 </body>
 </html>
