@@ -11,6 +11,7 @@
     <title>ModelAndView</title>
 </head>
 <body>
-Reuslt：${user3.logginname}
+Reuslt：${user3.logginname}<br>
+${requestScope.user.role}<br>
 </body>
 </html>
