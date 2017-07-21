@@ -10,9 +10,7 @@ import org.springframework.web.bind.annotation.RequestMapping;
 import javax.servlet.http.HttpServletResponse;
 import java.io.IOException;
 
-/**
- * Created by wb263970 on 2017/7/20.
- */
+
 @Controller
 @RequestMapping("/json")
 public class JackSonController {
