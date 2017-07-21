@@ -15,8 +15,8 @@ import java.io.IOException;
  */
 @Controller
 @RequestMapping("/json")
-public class JsonTestController {
-    private static final Log logger = LogFactory.getLog(JsonTestController.class);
+public class JackSonController {
+    private static final Log logger = LogFactory.getLog(JackSonController.class);
     @RequestMapping(value = "/testRequestBody")
     public void setJson(@RequestBody Book book, HttpServletResponse response) throws IOException {
     //ObjectMapper类是Jackson库的主要类.他提供一些功能将Java对象转换成Json格式的数据
