@@ -16,7 +16,7 @@
 <form:form modelAttribute="sex" method="post" action="checkboxForm">
     <table>
         <tr>
-            <td>选择课程:</td>
+            <td>选择性别:</td>
             <td>
                 <form:checkbox path="sex" value="男" />男&nbsp;
                 <form:checkbox path="sex" value="女" />女&nbsp;
