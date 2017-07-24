@@ -15,7 +15,7 @@ public class radioController {
     public String radiobuttonController(Model model){
         Sex sex=new Sex();
         sex.setSex("男");
-        model.addAttribute("sex",sex);
+        model.addAttribute("user",sex);
         return "radiobuttonForm";
     }
 }
