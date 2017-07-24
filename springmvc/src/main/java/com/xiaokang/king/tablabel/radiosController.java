@@ -26,6 +26,6 @@ public class radiosController {
         sexlist.add("保密");
         model.addAttribute("sex",sex);
         model.addAttribute("sexList",sexlist);
-        return "radiobuttonsForm";
+        return "radiosbuttonForm";
     }
 }
