@@ -18,8 +18,8 @@
         <tr>
             <td>选择性别:</td>
             <td>
-                <form:checkbox path="sex" value="男" />男&nbsp;
-                <form:checkbox path="sex" value="女" />女&nbsp;
+                <form:radiobutton path="sex" value="男" />男&nbsp;
+                <form:radiobutton path="sex" value="女" />女&nbsp;
 
             </td>
         </tr>
